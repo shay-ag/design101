@@ -1,11 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
   }
   
   body{
-    background-image: url(images/bg1.png);
+    background-image: url('images/bg1.png');
     animation: change 20s infinite ease-in-out;
     max-height: 100vh;
     max-width: 100vw;
@@ -165,61 +164,15 @@
   @keyframes change{
     0%
     {
-        background-image: url(images/bg1.png);
+        background-image: url('images/bg1.png');
     }
     50%
     {
-      background-image: url(images/bg2.png);
+      background-image: url('images/bg2.png');
     }
     100%
     {
-        background-image: url(images/bg.png);
+        background-image: url('images/bg1.png');
     }
   }
   
-  
-
-
-
-  
-
-/* Footer Section */
-.footer {
-    background-color: #000;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.658);
-    margin-bottom: -1rem;
-    padding: 2rem;
-    padding-top: 5rem;
-    opacity: 1;
-  }
-  
-  .footer-col {
-    padding: 0.2rem 0;
-  }
-  
-  .shayag {
-    color: rgba(255, 255, 255, 0.658);
-    text-decoration: none;
-    transition: all 0.5s;
-  }
-  .shayag:hover {
-    color: #8200fc;
-  }
-  
-  .links-div-footer {
-    text-align: center;
-    font-size: 1rem;
-    padding-top: 0.3rem;
-  }
-  
-  .links-div-footer a {
-    color: rgba(255, 255, 255, 0.658);
-    text-decoration: none;
-    padding: 0 0.3rem;
-    transition: all 0.5s;
-  }
-  
-  .links-div-footer a:hover {
-    color: white;
-  }
