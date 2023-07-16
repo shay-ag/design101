@@ -354,3 +354,4 @@ function update_tiny(i) {
     tiny[i].style.visibility = "hidden";
     return false
 }
+
