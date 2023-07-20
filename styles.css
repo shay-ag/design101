@@ -54,6 +54,7 @@
     padding: 70px;
     font-weight: 500;
     text-shadow: 7px 7px 7px #ffffff6c;
+    animation: lights 10s 750ms linear infinite;
   }
   
   .ml6 .text-wrapper {

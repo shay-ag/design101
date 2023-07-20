@@ -10,6 +10,15 @@
     background-attachment: fixed;
 }
 
+.top {
+  padding: 2rem 0 0 10rem;
+  transition: all ease-in 0.1s;
+}
+
+.top:hover {
+  color: white;
+}
+
 .container-fluid {
     padding: 13rem 0;
 }
@@ -21,11 +30,11 @@
 
 .line1 {
     font-family: playfair display, serif;
-    font-size: 2.5rem;    
+    font-size: 2rem;    
     font-weight: 600;
     display: inline-block;
     text-shadow: 7px 7px 7px #ffffff6c;
-        animation: lights 5s 750ms linear infinite;
+    animation: lights 5s 750ms linear infinite;
 }
 
 .line2 {
@@ -33,17 +42,38 @@
     font-family: 'Grey Qo', cursive;
     font-size: 3rem;
     letter-spacing: 3px;
-    margin: -2.5rem 0 7rem 0;
+    margin: -2.5rem 0 10rem 0;
     color: #ffe100be;
-    /* animation: lights 5s 750ms linear infinite; */
 }
 
 .content {
-    color: rgba(240, 248, 255, 0.87);
+    color: white;
     word-spacing: 0.3rem;
-    font-size: 1.1rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
 }
+
+.about-heading {
+  opacity: 0.3;
+  font-size: 10rem;
+  font-family: 'Grey Qo', cursive;
+  position: absolute;
+  color: gray;
+  margin: -9rem 0rem 0 -5rem;
+}
+
+.about-text {
+  padding: 1rem;
+  opacity: 0.1;
+  background-color: black;
+  transition: all ease-out 0.5s;
+}
+
+.about-text:hover {
+  background-color: transparent;
+  opacity: 1.0;
+  padding: 1rem;
+} 
 
 @keyframes lights {
     0% {
@@ -93,3 +123,79 @@
     
   }
 
+/* Contact Section */
+
+.div3 {
+  border-top: 2px solid magenta;
+  min-height: 100vh;
+  /* background-image: linear-gradient(to left, rgba(0, 1, 5, 0.13), rgb(0, 0, 0)); */
+}
+
+.tea-div {
+  display: inline-block;
+  font-size: 2rem;    
+  font-family: playfair display, serif;
+  font-weight: 700;
+}
+
+.tea-content {
+  display: inline-block;
+  word-spacing: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.mail {
+  font-size: 3rem;
+  font-family: playfair display, serif;
+  color: #ffe100be;
+  font-weight: 800;
+}
+/* 
+.form {
+  margin-top: 5rem;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  background-color: black;
+  border: 1px solid #ffe100be;
+  color: #ffe100be;
+}
+
+.btn-css {
+  color: #ffe100be;
+  border-radius: 0;
+  border-color: #ffe100be;
+  margin: -5px 0 0 1rem;
+} */
+
+.footer {
+  margin-bottom: -2rem;
+  min-height: 20vh;
+  background-color: black;
+  background-image: linear-gradient(to left, rgba(0, 1, 5, 0.13), rgb(0, 0, 0)), url('images/bg1.png');
+  bottom: 0;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.a-tag{
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.a-tag a {
+  color: gray;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.a-tag a:hover {
+  color: #ffe100be;
+}
+
+.end {
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+  border-top: 1px solid gray;
+  color: gray;
+  text-align: center;
+}
